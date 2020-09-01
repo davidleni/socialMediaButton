@@ -1,0 +1,283 @@
+/*The Main Container of all elements*/
+#followUs {
+    width: 195px;
+    height: 195px;
+    border: 0px solid red;
+}
+/*The Main Container of all elements*/
+
+/*link*/
+.followUsAnchor {
+    text-decoration: none;
+}
+/*link*/
+
+
+/*First line start*/
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton1 {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    -webkit-animation-name: followUsFacebook;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsFacebook;
+    animation-duration: 1s;    
+    animation-fill-mode: forwards;
+}
+#facebook {
+    margin-top: 33px;
+    margin-left: 33px; 
+    border-radius: 16px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes followUsFacebook {
+    from {bottom: -30px; left: 30px; opacity: 0;}
+    to {bottom: 0px; left: 0px; opacity: 1;}
+}
+
+@keyframes followUsFacebook {
+    from {bottom: -30px; left: 30px; opacity: 0;}
+    to {bottom: 0px; left: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton2 {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    -webkit-animation-name: followUsInstagram;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsInstagram;
+    animation-duration: 2s;    
+    animation-fill-mode: forwards;
+}
+#instagram {
+    margin-top: 14px;
+    margin-left: 16px; 
+    border-radius: 16px; 
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes followUsInstagram {
+    from {bottom: -30px; opacity: 0;}
+    to {bottom: 0px; opacity: 1;}
+}
+
+@keyframes followUsInstagram {
+    from {bottom: -30px; opacity: 0;}
+    to {bottom: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton3 {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    -webkit-animation-name: followUsLinkedin;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsLinkedin;
+    animation-duration: 1s;    
+    animation-fill-mode: forwards;
+}
+#linkedin {
+    margin-top: 33px;
+    margin-left: 0px;
+    border-radius: 16px; 
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes followUsLinkedin {
+    from {bottom: -30px; left: -30px; opacity: 0;}
+    to {bottom: 0px; left: 0px; opacity: 1;}
+}
+
+@keyframes followUsLinkedin {
+    from {bottom: -30px; left: -30px; opacity: 0;}
+    to {bottom: 0px; left: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#followUsButton1, #followUsButton2, #followUsButton3 {
+    display: none; /* This should be none later*/
+    float: left;
+}
+/*First line end*/
+
+
+/*Second line start*/
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton4 {
+    width: 65px;
+    height: 65px;
+    display: none; /* This should be none later*/
+    position: relative;
+    -webkit-animation-name: followUsSnap;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsSnap;
+    animation-duration: 2s;    
+    animation-fill-mode: forwards;
+}
+#snap {
+    margin-top: 16px;
+    margin-left: 14px; 
+    border-radius: 16px; 
+}
+@-webkit-keyframes followUsSnap {
+    from {left: 30px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+
+@keyframes followUsSnap {
+    from {left: 30px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#followUsMainButton {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 32.5px;
+    background-color: darkslategray;
+    margin: 65px;
+    display: block; /* This should be none later*/
+    cursor: pointer;
+}
+#followUsMainButtonTxt {
+    margin-top: 23px;
+    font-size: 14px;
+    color: #FAFAFA;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton5 {
+    width: 65px;
+    height: 65px;
+    display: none; /* This should be none later*/
+    position: relative;
+    -webkit-animation-name: followUsTelegram;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsTelegram;
+    animation-duration: 2s;    
+    animation-fill-mode: forwards;
+}
+#telegram {
+    margin-top: 16px;
+    margin-left: 20px; 
+    border-radius: 16px; 
+}
+@-webkit-keyframes followUsTelegram {
+    from {left: -30px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+
+@keyframes followUsTelegram {
+    from {left: -30px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#followUsButton4, #followUsMainButton, #followUsButton5 {
+    float: left;
+}
+/*Second line end*/
+
+
+/*Third line start*/
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton6 {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    -webkit-animation-name: followUsTwitter;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsTwitter;
+    animation-duration: 1s;    
+    animation-fill-mode: forwards;
+}
+#twitter {
+    margin-top: 0px;
+    margin-left: 33px; 
+    border-radius: 16px; 
+}
+@-webkit-keyframes followUsTwitter {
+    from {left: 30px; bottom: 30px; opacity: 0;}
+    to {left: 0px; bottom: 0px; opacity: 1;}
+}
+
+@keyframes followUsTwitter {
+    from {left: 30px; bottom: 30px; opacity: 0;}
+    to {left: 0px; bottom: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton7 {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    -webkit-animation-name: followUsWhatsapp;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsWhatsapp;
+    animation-duration: 2s;    
+    animation-fill-mode: forwards;
+}
+#whatsapp {
+    margin-top: 17px;
+    margin-left: 16px; 
+    border-radius: 16px; 
+}
+@-webkit-keyframes followUsWhatsapp {
+    from { bottom: 30px; opacity: 0;}
+    to { bottom: 0px; opacity: 1;}
+}
+
+@keyframes followUsWhatsapp {
+    from {bottom: 30px; opacity: 0;}
+    to {bottom: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#followUsButton8 {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    -webkit-animation-name: followUsYoutube;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: followUsYoutube;
+    animation-duration: 1s;    
+    animation-fill-mode: forwards;
+}
+#youtube {
+    margin-top: 0px;
+    margin-left: 0px; 
+    border-radius: 16px; 
+}
+@-webkit-keyframes followUsYoutube {
+    from {left: -30px; bottom: 30px; opacity: 0;}
+    to {left: 0px; bottom: 0px; opacity: 1;}
+}
+
+@keyframes followUsYoutube {
+    from {left: -30px; bottom: 30px; opacity: 0;}
+    to {left: 0px; bottom: 0px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#followUsButton6, #followUsButton7, #followUsButton8 {
+    display: none; /* This should be none later*/
+    float: left;
+}
+/*Third line end*/
